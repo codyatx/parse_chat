@@ -15,3 +15,5 @@ characters, those two groups are counted as separate words. For example, the str
 '123(abc)456'
 
 Would count as one emoticon: '(abc)' and two words: '123' and '456'.
+
+A chat.py script is included that runs the parse_chat function on user input and displays the output.

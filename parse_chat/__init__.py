@@ -94,6 +94,6 @@ def _get_title(url):
             html = response.read()
             match = re.search('<title>(.*?)</title>', html.decode('ascii', errors='ignore'))
             title = match.group(1) if match else ''
-            return title[0:200]
+            return title[:200]
     except ValueError:
         return
